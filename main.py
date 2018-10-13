@@ -74,11 +74,12 @@ for episode in range(num_episodes-1):
     #stack=stack-np.ones_like(stack)
     preq_list=tuple(stack.astype(np.int).tolist())
 
-    dummy_reward=[4,2,3,1,5,4,3,1,2,3,4,3]
-    reward[episode] = get_reward(dummy_reward,episode)
+    #dummy_reward=[4,2,3,1,5,4,3,1,2,3,4,3]
+    reward[episode] = get_reward()
     #here to input face photos
 
     q_table[qt_list]+=alpha*(reward[episode]+gamma*q_table[preq_list]-q_table[qt_list])
 
     #sing(action[:,episode])
+
 np.save("q_table.npy",q_table)
