@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC
+    "-//Recordare//DTD MusicXML 3.1 Partwise//EN"
+    "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <part-list>
+    <score-part id="P1">
+      <part-name>Music</part-name>
+      <midi-instrument id="P1-I1">
+        <midi-channel>1</midi-channel>
+        <midi-program>1</midi-program>
+        <volume>80</volume>
+        <pan>0</pan>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <!--=======================================================-->
+    <measure number="1">
+      <note>
+        <rest/>
+        <duration>4</duration>
+      </note>
+    </measure>
+    <!--=======================================================-->
+
+    <measure number="2">
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <lyric>
+          <syllabic>single</syllabic>
+          <text>だ</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <lyric default-y="-77" number="1">
+          <syllabic>end</syllabic>
+          <text>だ</text>
+        </lyric>
+      </note>
+    </measure>
+
+    <!--=======================================================-->
+    <measure number="3">
+      <note>
+        <rest/>
+        <duration>4</duration>
+      </note>
+    </measure>
+    <!--=======================================================-->
+  </part>
+</score-partwise>
